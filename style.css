@@ -1,0 +1,117 @@
+* {
+    margin:0px;
+    padding: 0;
+
+}
+
+/* body background */
+body{
+    background-image: url(fixBG.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/* general center style */
+.center {
+    text-align: center;
+}
+/* intro part */
+/* #intropage{
+   
+    padding: 130px; 
+    padding-bottom: 0px;
+} */
+/* Designing the intro part */
+#container1 {
+    padding-top: 5%;
+}
+
+/* h1 and h2 and dashes designing */
+h1  {
+    font-size: 80px;
+    color: #5e2f01;
+    background-color: rgb(240, 248, 255,0.3);
+    
+}
+#introh2{
+    color: #5e2f01;
+    margin-top: 32px
+}
+#dash1 {
+    text-align: center;
+    color: #990505;
+    margin-bottom: -12px;
+    
+}
+#dash2 {
+    text-align: center;
+    color:#990505;
+    
+}
+
+/* form editing */
+#form1 {
+    
+    position: absolute;
+    padding-left: 42%;
+    padding-top: 2%;
+    padding-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    color: red;
+    
+    
+}
+form {
+    display: flex;
+    gap:2px;
+    flex-direction: column;
+    align-items: center;
+    color: red;
+    
+    
+    
+}
+
+/* midpage  */
+#midpage{
+   padding-top: 3%;
+     } 
+
+
+
+#midpageh2 {
+    padding-bottom: 20px;
+    color: rgb(150, 90, 11);
+}
+#midpageh3 {
+    padding-bottom: 20px;
+    color: rgb(150, 90, 11);
+    margin-top: 0%;
+}
+
+#button1 {
+    padding: 9%;
+    padding-left: 59px;
+    padding-right: 60px;
+    border-radius: 10px;
+    border-color: #5e2f01;
+    cursor: pointer;
+    background-color: #b47c3c;
+    color: rgb(248, 248, 248);
+    font-size: 18px;
+}
+/* #btndesign {
+    padding-top: 13px;
+    
+} */
+
+/* SUV CAR */
+#suvcar {
+    padding-left: 39%;
+    width: 22%;
+}
+
+#button1:hover {
+    background-color: #744209;
+}
+

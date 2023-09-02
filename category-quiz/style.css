@@ -1,0 +1,64 @@
+body {
+    /* background-color: #283618; */
+    /* background-color: rgb(177, 166, 166); */
+    background-image: url(BGquestion.jpg);
+    background-size: cover;
+}
+h1 {
+    text-align: center;
+    padding-top: 40px;
+    color: white;
+    background-color: rgba(190, 96, 96,0.2);
+    margin: 0%;
+    padding-bottom: 40px;
+}
+img {
+    width: 16%;
+    padding: 111px;
+    padding-bottom: 0px;
+    padding-top: 10px;
+}
+
+#container1 {
+    padding-top: 111px;
+    padding-left: 71px;
+    background-color: rgba(127,255,212,0.2);
+    
+    
+    
+}
+
+#container2 {
+    display: flex;
+    flex-direction: row;
+    gap: 15rem;
+    padding-left: 15%;
+    background-color: rgba(127,255,212,0.2);
+    
+}
+
+#timepass{
+    background-color: rgba(190, 96, 96,0.2);
+    padding-bottom: 3%;
+}
+#football {
+    padding-left: 56px;
+}
+figure{
+    width: 0%;
+}
+
+p {
+    font-size: 230%;
+    color: white;
+}
+
+#movies {
+    padding-left: 52px;
+}
+
+img:hover {
+    background-color: aqua;
+    border-radius: 50px;
+    cursor: pointer;
+}
